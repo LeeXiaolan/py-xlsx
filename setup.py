@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    version="0.4.1.1",
+    version="0.4.1.2",
     name='py-xlsx',
     description="""Tiny python code for parsing data from Microsoft's Office
     Open XML Spreadsheet format""",

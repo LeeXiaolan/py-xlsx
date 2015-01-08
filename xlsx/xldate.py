@@ -177,4 +177,4 @@ def try_xldate_as_tuple(text, datemode):
         floatValue = float(text)
     except ValueError as e:
         return text
-    return xldate_as_tuple(floatValue, mode)
+    return xldate_as_tuple(floatValue, datemode)
